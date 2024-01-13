@@ -1,43 +1,85 @@
 function CoverImg11(){
     const mobilecover = document.getElementById("mobilecoverimg1");
-    mobilecover.src = "./IMGS/homepage img/vanilla1.png"
+    mobilecover.src = "./IMGS/homepage img/black forest cake.png"
     
 }
 
 function CoverImg12(){
     const mobilecover = document.getElementById("mobilecoverimg1");
-    mobilecover.src = "./IMGS/homepage img/vanilla2.png"
+    mobilecover.src = "./IMGS/homepage img/black-forest-bento-cake_1.png"
 }
 
 function CoverImg21(){
     const mobilecover = document.getElementById("mobilecoverimg2");
-    mobilecover.src = "./Images/homepage-img/004_51916a77-a4b1-47ec-b803-1790d6d5642c.webp"
+    mobilecover.src = "./IMGS/homepage img/vanilla3.png"
     
 }
 
 function CoverImg22(){
     const mobilecover = document.getElementById("mobilecoverimg2");
-    mobilecover.src = "./Images/homepage-img/003_7f76c03c-2965-4818-87b9-40058f666b8b.webp"
+    mobilecover.src = "./IMGS/homepage img/Butter.png"
 }
 
 function CoverImg31(){
     const mobilecover = document.getElementById("mobilecoverimg3");
-    mobilecover.src = "./Images/homepage-img/IMG_3318_b636d7b2-1b66-4754-8503-4f8567f4e3bd.webp"
+    mobilecover.src = "./IMGS/homepage img/butterscotch cake1.png"
     
 }
 
 function CoverImg32(){
     const mobilecover = document.getElementById("mobilecoverimg3");
-    mobilecover.src = "./Images/homepage-img/IMG_3320.webp"
+    mobilecover.src = "./IMGS/homepage img/butterscotch cake.png"
 }
 
 function CoverImg41(){
     const mobilecover = document.getElementById("mobilecoverimg4");
-    mobilecover.src = "./Images/homepage-img/IMG_2278.webp"
+    mobilecover.src = "./IMGS/homepage img/chocolate1 cake.png"
     
 }
 
 function CoverImg42(){
     const mobilecover = document.getElementById("mobilecoverimg4");
-    mobilecover.src = "./Images/homepage-img/IMG_2283.webp"
+    mobilecover.src = "./IMGS/homepage img/chocolate.png"
 }
+function CoverImg51(){
+    const mobilecover = document.getElementById("mobilecoverimg5");
+    mobilecover.src = "../IMGS/homepage img/fruit cake1.png"
+    
+}
+
+function CoverImg52(){
+    const mobilecover = document.getElementById("mobilecoverimg5");
+    mobilecover.src = "./IMGS/homepage img/fruit cake.png"
+}
+function CoverImg61(){
+    const mobilecover = document.getElementById("mobilecoverimg6");
+    mobilecover.src = "./IMGS/homepage img/red-velvet-bento-cake1.png"
+    
+}
+
+function CoverImg62(){
+    const mobilecover = document.getElementById("mobilecoverimg6");
+    mobilecover.src = "./IMGS/homepage img/red-velvet-bento-cake.png"
+}
+function CoverImg71(){
+    const mobilecover = document.getElementById("mobilecoverimg7");
+    mobilecover.src = "./IMGS/homepage img/pineapple cake.png"
+    
+}
+
+function CoverImg72(){
+    const mobilecover = document.getElementById("mobilecoverimg7");
+    mobilecover.src = "./IMGS/homepage img/pineapple cake1.png"
+}
+function CoverImg81(){
+    const mobilecover = document.getElementById("mobilecoverimg8");
+    mobilecover.src = "./IMGS/homepage img/vanilla1.png"
+    
+}
+
+function CoverImg82(){
+    const mobilecover = document.getElementById("mobilecoverimg8");
+    mobilecover.src = "./IMGS/homepage img/vanilla4.png"
+}
+
+
