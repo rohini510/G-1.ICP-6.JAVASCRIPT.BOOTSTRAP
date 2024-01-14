@@ -91,3 +91,7 @@ function changecake12(imageName) {
     const mainImage = document.getElementById('cake-img2');
     mainImage.src = imageName
 }
+function changecake13(imageName) {
+    const mainImage = document.getElementById('cake-img3');
+    mainImage.src = imageName
+}
