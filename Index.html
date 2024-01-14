@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,20 +14,231 @@
         .bg{
             background-color: #3E3232;
         }
-        .font-color{
-            color: white;
+        .bg1{
+          background-color: #7E6363;
         }
-        .font-color:hover{
+        .text-color{
+          color: #3E3232;
+        }
+        .font-color{
             color: white;
         }
     .hover-img:hover{
       transition: 0.3s;
         transform: scale(1.1);
+        border-radius: 5%;
+       
     }
+    .foorte-logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-h1{
+    /* display: inline;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 2px; 
+    border-bottom:5px solid orange; */
+
+    display: inline;
+    font-family: 'Bree Serif', serif;
+    padding-left: 2px; 
+    color:#FFE5E5 ;
+}
+.footer-logo{
+    height: 70px;
+    background-color: #e6c1c9;
+    border: 1px solid #ff0037;
+    border-radius: 40px;
+    margin: 20px;
+}
+.footer-p{
+    font-family: 'Bree Serif', serif;
+    padding-left: 10px
+}
+
+a {
+    color:#FFE5E5 ;
+    text-decoration: none;
+}
+a:hover {
+    color: tomato;
+    font-family: 'Bree Serif', serif;
+}
+
+.footer {
+    background-color: #3E3232;
+    width: 99%;
+    padding: 5px;
+    margin-top:99px;
+    right: 0%;
+    font-family: 'Bree Serif', serif;
+    bottom: 0%;
+    border-radius: 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    zpadding: 5px;
+    text-decoration: none;
+}
+.footer-text {
+    font-size: 24px;
+    font-family: 'Bree Serif', serif;
+}
+.footer1 {
+    width: 150px;
+    font-family: 'Bree Serif', serif;
+}
+
+.social {
+    display: none;
+}
+
+.footer-text {
+    font-size: 24px;
+}
+.social {
+    display: none;
+}
+.footer-text {
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+
+    color:#FFE5E5 ;
+
+}
+.footer-detail {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.social {
+    padding: 10px;
+}
+.text {
+    color:#FFE5E5 ;
+    cursor: pointer;
+
+
+}
+.subtitle {
+    cursor: pointer;
+    color:#FFE5E5 ;
+    text-decoration: none;
+
+}
+
+.logos {
+    color:#FFE5E5 ;
+    cursor: pointer;
+
+    display: inline-block;
+    margin-left: 10px;
+    padding: 20px;
+
+
+    transition: transform 0.2s;
+}
+.right-box {
+    margin-left: 20px;
+}
+.center-box {
+    margin-left: 20px;
+}
+.mail-img {
+    margin-right: 10px;
+
+}
+
+@media (max-width: 600px) {
+
+    .footer {
+        background-color:;
+        width: 100%;
+        padding: 5px;
+        margin-top: 10px;
+        border-radius: 10px;
+        height: 1000px;
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 5px;
+
+    }
+
+    .footer1 {
+        width: 100%;
+    }
+
+    .footer-text {
+        font-size: 30px;
+        color:#FFE5E5 ;
+        
+    }
+
+    .footer-detail {
+        color:#FFE5E5 ;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .text {
+        color:#FFE5E5 ;
+        cursor: pointer;
+    }
+
+    .subtitle {
+        cursor: pointer;
+        color:#FFE5E5 ;
+    }
+
+    .logos {
+        color: white;
+        cursor: pointer;
+        display: inline;
+        margin-left: 10px;
+        padding: 20px;
+    }
+
+    .right-box {
+        margin-right: 200px;
+
+    }
+
+    .center-box {
+        margin-right: 350px;
+    }
+
+    .mail-img {
+        margin-right: 40px;
+
+    }
+
+    .email {
+        text-decoration: none;
+    }
+
+
+}
+
+
     
     </style>
 </head>
-
 <body>
     <nav class="navbar navbar-expand-lg bg">
         <div class="container-fluid">
@@ -47,19 +257,19 @@
                   Cakes
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="">Flavours</a></li>
-                  <li><a class="dropdown-item" href="Occassions.html">Occassions</a></li>
+                  <li><a class="dropdown-item" href="./Pages/Flavouredcakes.html">Flavours</a></li>
+                  <li><a class="dropdown-item" href="./Pages/Occassions.html">Occassions</a></li>
                   <li><hr class="dropdown-divider"></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link  font-color ms-4  " href="#">Cupcakes</a>
+                <a class="nav-link  font-color ms-4  " href="./Pages/Cupcakes.html">Cupcakes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link  font-color ms-4 " href="pastries.html">pastries</a>
+                <a class="nav-link  font-color ms-4 " href="./Pages/pastries.html">pastries</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link  font-color ms-4" href="About us.html">About us</a>
+                <a class="nav-link  font-color ms-4" href="./Pages/About us.html">About us</a>
               </li>
             </ul>
             <form class="d-flex me-5 " role="search">
@@ -68,7 +278,7 @@
             </form>
           </div>
         </div>
-      <a href="">  <img src="../IMGS/homepage img/shopping-cart.png" class="me-3 "  style="width: 35%"></a>
+      <a href="./Pages/AddtoCart.html">  <img src="../IMGS/homepage img/shopping-cart.png" class="me-3 "  style="width: 35%"></a>
        <a href="./Pages/login.html"> <img src="../IMGS/homepage img/login.png" class="me-5"  style="width: 25%"></a>
           </nav>
           <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
@@ -97,20 +307,19 @@
           </div>
 
 
-        <P class="fs-1  fw-bold text-black mt-3 ms-5 text-center">Cakes: Fresh & Flavourful</P>
+        <P class="fs-1  fw-bold text-black mt-3 ms-5 text-center text-color">Cakes: Fresh & Flavourful</P>
 <div class="container d-flex">
     <img src="./IMGS/homepage img/Same-Day_Web .png" class="mt-3 hover-img" style="width: 50%">
-    <img src="./IMGS/homepage img/Midnight-Delivery_Web.png" class="ms-5 mt-3 hover-img" style="width: 50%">
-  </div>
-  <div class="container d-flex">
+    <img src="./IMGS/homepage img/Midnight-Delivery_Web.png" class="ms-5 mt-3 hover-img"    style="width: 50%">
+</div>
+<div class="container d-flex">
     <img src="./IMGS/homepage img/Bestseller_Web.png" class="mt-5 hover-img" style="width: 50%">
-    <img src="./IMGS/homepage img/New-Arrival_Web .png" class="ms-5 mt-5 hover-img" style="width: 50%">
-  </div>
+    <img src="./IMGS/homepage img/New-Arrival_Web .png" class="ms-5 mt-5 hover-img"    style="width: 50%">
+</div>
 
-<h1 class="card-title mt-5 text-center fw-bold ">Flavour Of Cake</h1>
+<h1 class="card-title mt-5 text-center fw-bold text-color">Flavour Of Cake</h1>
 
 <div class="container d-flex">
-  <div class="col-lg-3 col-sm-12 col-md-6 ">
 <div class="card text-center mt-5 me-5 hover-img" style="width: 18rem;">
   <img src="./IMGS/homepage img/black forest cake.png" class="card-img-top "
   id="mobilecoverimg1" onmousemove="CoverImg11()" onmouseout="CoverImg12()">
@@ -119,17 +328,13 @@
 </p>
 </div>
 </div>
-</div>
-<div class="col-lg-3 col-sm-12 col-md-6 ">
 <div class="card text-center mt-5 me-5 hover-img" style="width: 18rem;">
   <img src="./IMGS/homepage img/Butter.png" class="card-img-top "  id="mobilecoverimg2" onmousemove="CoverImg21()" onmouseout="CoverImg22()">
 <div class="card-body">
-<h3 class="card-title">Vanilla cake</h3>
+<h3 class="card-title">Strawberry Cake </h3>
 </p>
 </div>
 </div>
-</div>
-<div class="col-lg-3 col-sm-12 col-md-6 ">
 <div class="card text-center mt-5 me-5 hover-img" style="width: 18rem;">
   <img src="./IMGS/homepage img/butterscotch cake.png" class="card-img-top "id="mobilecoverimg3" onmousemove="CoverImg31()" onmouseout="CoverImg32()">
 <div class="card-body">
@@ -137,8 +342,6 @@
 </p>
 </div>
 </div>
-</div>
-<div class="col-lg-3 col-sm-12 col-md-6 ">
 <div class="card text-center mt-5 me-5 hover-img" style="width: 18rem;">
   <img src="./IMGS/homepage img/chocolate.png" class="card-img-top" id="mobilecoverimg4" onmousemove="CoverImg41()" onmouseout="CoverImg42()">
 <div class="card-body">
@@ -149,7 +352,7 @@
 </div>
 </div>
 <div class="container d-flex">
-  <div class="col-lg-3 col-sm-12 col-md-6 ">
+ 
 <div class="card text-center mt-5 me-5 hover-img" style="width: 18rem;">
   <img src="./IMGS/homepage img/fruit cake.png" class="card-img-top "
   id="mobilecoverimg5" onmousemove="CoverImg51()" onmouseout="CoverImg52()">
@@ -158,8 +361,8 @@
 </p>
 </div>
 </div>
-</div>
-<div class="col-lg-3 col-sm-12 col-md-6 ">
+
+
 <div class="card text-center mt-5 me-5 hover-img" style="width: 18rem;">
   <img src="./IMGS/homepage img/red-velvet-bento-cake.png" class="card-img-top "id="mobilecoverimg6" onmousemove="CoverImg61()" onmouseout="CoverImg62()">
 <div class="card-body">
@@ -167,8 +370,6 @@
 </p>
 </div>
 </div>
-</div>
-<div class="col-lg-3 col-sm-12 col-md-6 ">
 <div class="card text-center mt-5 me-5 hover-img" style="width: 18rem;">
   <img src="./IMGS/homepage img/pineapple cake.png" class="card-img-top "
   id="mobilecoverimg7" onmousemove="CoverImg71()" onmouseout="CoverImg72()">
@@ -177,8 +378,6 @@
 </p>
 </div>
 </div>
-</div>
-<div class="col-lg-3 col-sm-12 col-md-6 ">
 <div class="card text-center mt-5 me-5 hover-img" style="width: 18rem;">
   <img src="./IMGS/homepage img/vanilla1.png" class="card-img-top "id="mobilecoverimg8" onmousemove="CoverImg81()" onmouseout="CoverImg82()">
 <div class="card-body">
@@ -187,53 +386,185 @@
 </div>
 </div>
 </div>
-</div>
 
-<h1 class="card-title text-center mt-5 fw-bold ">Cakes for everyday occasions</h1>
+<h1 class="card-title text-center mt-5 fw-bold text-color">SHAPE IT UP !</h1>
 <div class="container d-flex">
 
-  <div class="card me-5 mt-5" style="width: 35%;">
-      <img src="./IMGS/homepage img/birthday.png" alt="" id="cake-img1" class="card-img-top">
+  <div class="card me-5 mt-5 hover-img" style="width: 35%;">
+      <img src="./IMGS/homepage img/anniversary1.png" alt="" id="cake-img1" class="card-img-top">
 <div class="card-body">
   <div class="card-img-overlay">
-  <h5 class="card-title fw-bold">BIRTHDAY CAKE</h5>
-    <p class="card-text">Its cake 'o' clock !!!!</p>
+  <h5 class="card-title fw-bold">HEART SHAPE CAKE</h5>
+   
   </div>  
-        <img src="./IMGS/homepage img/birthday.png" alt="" class="card-img-top me-3" onclick="changecake11('./IMGS/homepage img/birthday.png')" style="width:21%;">
-        <img src="./IMGS/homepage img/birthday1.png" alt="" class="card-img-top me-2" onclick="changecake11('./IMGS/homepage img/birthday1.png')" style="width:21%;">
-        <img src="./IMGS/homepage img/birthday2.png" alt="" class="card-img-top me-3" onclick="changecake11('./IMGS/homepage img/birthday2.png')" style="width:21%;">
-        <img src="./IMGS/homepage img/birthday4.png" alt="" class="card-img-top " onclick="changecake11('./IMGS/homepage img/birthday4.png')" style="width:21%;">
+        <img src="./IMGS/homepage img/birthday4.png" alt="" class="card-img-top me-3" onclick="changecake11('./IMGS/homepage img/birthday.png')" style="width:21%;">
+        <img src="./IMGS/homepage img/anniversary1.png" alt="" class="card-img-top me-2" onclick="changecake11('./IMGS/homepage img/birthday1.png')" style="width:21%;">
+        <img src="./IMGS/homepage img/anniversary3.png" alt="" class="card-img-top me-3" onclick="changecake11('./IMGS/homepage img/birthday2.png')" style="width:21%;">
+        <img src="./IMGS/homepage img/birthday1.png" alt="" class="card-img-top " onclick="changecake11('./IMGS/homepage img/birthday4.png')" style="width:21%;">
   </div>
  </div>
 
- <div class="card me-5 mt-5" style="width: 35%;">
+ <div class="card me-5 mt-5 hover-img" style="width: 35%;">
   <img src="./IMGS/homepage img/anniversary.png" alt="" id="cake-img2" class="card-img-top">
 <div class="card-body">
 <div class="card-img-overlay">
-<h5 class="card-title fw-bold">ANNIVERSARY CAKE</h5>
-<p class="card-text">Love with a side of cake </p>
+<h5 class="card-title fw-bold ">ROUND CAKE</h5>
+
 </div>  
     <img src="./IMGS/homepage img/anniversary.png" alt="" class="card-img-top me-3" onclick="changecake12('./IMGS/homepage img/anniversary.png')" style="width:21%;">
-    <img src="./IMGS/homepage img/anniversary1.png" alt="" class="card-img-top me-2" onclick="changecake12('./IMGS/homepage img/anniversary1.png')" style="width:21%;">
+    <img src="./IMGS/homepage img/birthday.png" alt="" class="card-img-top me-2" onclick="changecake12('./IMGS/homepage img/anniversary1.png')" style="width:21%;">
     <img src="./IMGS/homepage img/anniversary2.png" alt="" class="card-img-top me-3" onclick="changecake12('./IMGS/homepage img/anniversary2.png')" style="width:21%;">
-    <img src="./IMGS/homepage img/anniversary3.png" alt="" class="card-img-top " onclick="changecake12('./IMGS/homepage img/anniversary3.png')" style="width:21%;">
+    <img src="./IMGS/homepage img/Butter.png" alt="" class="card-img-top " onclick="changecake12('./IMGS/homepage img/anniversary3.png')" style="width:21%;">
 </div>
-</div>
-<div class="card me-5 mt-5" style="width: 35%;">
-  <img src="./IMGS/homepage img/birthday.png" alt="" id="cake-img" class="card-img-top">
+</div> 
+<div class="card me-5 mt-5 hover-img" style="width: 35%;">
+  <img src="./IMGS/homepage img/desinger4.png" alt="" id="cake-img3" class="card-img-top h-100">
 <div class="card-body">
 <div class="card-img-overlay">
-<h5 class="card-title fw-bold">BIRTHDAY CAKE</h5>
-<p class="card-text">its cake 'o' clock !!!!</p>
+<h5 class="card-title fw-bold ">DESIGNER CAKE</h5>
 </div>  
-    <img src="./IMGS/homepage img/birthday.png" alt="" class="card-img-top me-3" onclick="changeAirpod11('./IMGS/homepage img/birthday.png')" style="width:21%;">
-    <img src="./IMGS/homepage img/birthday1.png" alt="" class="card-img-top me-2" onclick="changeAirpod11('./IMGS/homepage img/birthday1.png')" style="width:21%;">
-    <img src="./IMGS/homepage img/birthday2.png" alt="" class="card-img-top me-3" onclick="changeAirpod11('./IMGS/homepage img/birthday2.png')" style="width:21%;">
-    <img src="./IMGS/homepage img/birthday4.png" alt="" class="card-img-top " onclick="changeAirpod11('./IMGS/homepage img/birthday4.png')" style="width:21%;">
+    <img src="./IMGS/homepage img/desinger.png" alt="" class="card-img-top me-3" onclick="changecake13('./IMGS/homepage img/birthday.png')" style="width:21%;">
+    <img src="./IMGS/homepage img/desinger2.png" alt="" class="card-img-top me-2" onclick="changecake13('./IMGS/homepage img/birthday1.png')" style="width:21%;">
+    <img src="./IMGS/homepage img/desinger1.png" alt="" class="card-img-top me-3" onclick="changecake13('./IMGS/homepage img/birthday2.png')" style="width:21%;">
+    <img src="./IMGS/homepage img/desinger3.png" alt="" class="card-img-top " onclick="changecake13('./IMGS/homepage img/birthday4.png')" style="width:21%;">
 </div>
 </div>
  </div>
  
+ <h1 class="text-center mt-5 fw-bold text-color">Cake For Occassions</h1>
+<div class="container d-flex">
+ <div class="card mt-5 hover-img " style="width: 35%; ">
+  <a href="./Pages/Allcakes.html"> <img src="./IMGS/homepage img/birthday3.png" class="card-img-top "  style="width: 100%"></a>
+  <div class="card-body">
+   <h1 class="text-center"> Birthday cake</h1>
+  </div>
+ </div>
+
+ <div class="card mt-5 ms-5 hover-img" style="width: 35%; ">
+  <a href="./Pages/Allcakes.html"> <img src="./IMGS/homepage img/anniversary3.png" class="card-img-top "  style="width: 100%"></a>
+  <div class="card-body">
+   <h1 class="text-center">Anniversary cake</h1>
+  </div>
+ </div>
+
+ <div class="card mt-5 ms-5 hover-img" style="width: 35%; ">
+  <a href="./Pages/Allcakes.html"> <img src="./IMGS/homepage img/anniversary.png" class="card-img-top "  style="width: 100%"></a>
+  <div class="card-body">
+   <h1 class="text-center"> Engagement cake</h1>
+  </div>
+ </div>
+</div>
+
+<h1 class="text-center mt-5 fw-bold text-color">Gallery</h1>
+<div class="container d-flex mt-5">
+<div class="card hover-img" style="width: 40%;">
+<img src="./IMGS/homepage img/birthday2.png" class="col-6 
+" style="width: 100%;">
+</div>
+
+<div class="card hover-img ms-5" style="width: 40%;">
+  <img src="./IMGS/homepage img/birthday4.png" class="col-6 
+  " style="width: 100%;">
+  </div>
+  <div class="card hover-img ms-5" style="width: 40%;">
+    <img src="./IMGS/homepage img/birthday.png" class="col-6 
+    " style="width: 100%;">
+    </div>
+    <div class="card hover-img ms-5" style="width: 40%;">
+      <img src="./IMGS/homepage img/birthday1.png" class="col-6 
+      " style="width: 100%;">
+      </div>
+
+</div>
+
+<div class="container d-flex mt-5">
+  <div class="card hover-img" style="width: 40%;">
+  <img src="./IMGS/homepage img/pineapple cake1.png" class="col-6 
+  " style="width: 100%;">
+  </div>
+  
+  <div class="card hover-img ms-5" style="width: 40%;">
+    <img src="./IMGS/homepage img/black-forest-bento-cake_1.png" class="col-6 
+    " style="width: 100%;">
+    </div>
+    <div class="card hover-img ms-5" style="width: 40%;">
+      <img src="./IMGS/homepage img/anniversary3.png" class="col-6 
+      " style="width: 100%;">
+      </div>
+      <div class="card hover-img ms-5" style="width: 40%;">
+        <img src="./IMGS/homepage img/bachelorette.png" class="col-6 
+        " style="width: 100%;">
+        </div>
+  </div>
+
+  <h1 class="title fw-bold text-center mt-5 text-color">Faqs For Customers</h1>
+  <div class="container mt-5 ">
+  <div class="accordion " id="accordionExample">
+    <div class="accordion-item bg1">
+      <h2 class="accordion-header ">
+        <button class="accordion-button fw-bold bg1 text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         Who We Are?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>We are a one stop shop for your dessert emergencies. We provide a marketplace where you can order delicious cakes online and get them hand-delivered at your doorstep</strong> 
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item mt-3">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed fw-bold bg1 text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         How Do We Work
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>The very first step is to visit our cake ordering page and enter the recipient's address (eg: Hitech city) in the search box. This will return all of the cakes & treats that can be delivered to the area you selected. Then simply choose a cake & treats, add it to your basket and checkout. Once payment has been received, your order will be sent to the baker and they’ll begin baking your cake.</strong> 
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item mt-3">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed fw-bold bg1 text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         How Will The Recipient Receive The Order?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>We make sure each delivery or take out is a special one and that is why each cake & treats is delivered in a beautiful box and includes a list of ingredients and a card that can be personalised with your message for your loved ones.</strong> 
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item mt-3">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed fw-bold bg1 text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         How Do I Sign Myself Up On Your Website?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>It is a very simple step. Just look for a SIGN UP option on the top right corner and all you need to enter there are your USERNAME, DISPLAY NAME and Email ID. Once that’s done, you are registered in our system and you can enjoy yum desserts which will be just a click away.</strong> 
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item mt-3">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed fw-bold bg1 text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         Will The Cake Look Exactly As It Does On The Site?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Well, the bakers will definitely try their best to match the photo as closely as possible however, we cannot guarantee that it will look exactly the same as all these cakes are handmade. But, they are going to be really delicious, that’s a promise!.</strong>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  
 
 
 
@@ -241,12 +572,114 @@
 
 
 
+  <footer>
+    <div class="footer">
+        <div class="foorte-logo-container">
+            <img src="./IMGS/homepage img/logo.png" alt="gg-type-logo" class="footer-logo">
+            <h1 class="footer-h1">Sweet Cake</h1>
+            <br><br>
+
+           
+
+        </div>
+        <div class="main-content">
+
+            
+           
+
+
+            <div class="footer1">
+                <h2 class="footer-text">Quick links</h2> <br>
+                <a class="footer-detail" href="./Index.html">Home</a> </br>
+
+                </br>
+                <div class="footer-detail">Cupcakes</div></br>
+                <div class="footer-detail">Login</div></br>
+                <div class="footer-detail">Cakes</div>
+              
+
+
+                <div class="social"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i
+                        class="fa-brands fa-linkedin"></i><i class="fa-brands fa-youtube"></i></div>
+            </div>
+            <div class="center-box">
+                <h2 class="footer-text">Order Now</h2>
+                <div class="content"><span class="fa-solid fa-location-dot"></span><span class="text"><br>
+                  
+                        <a href="./Pages/Flavouredcakes.html"> Flavoured Cakes</a></br>
+                        </br>
+                        <a href="./Pages/Cupcakes.html">Cupcakes</a>
+                        <br><br>
+                        <a href="./Pages/Occassions.html">Occassions</a>
+                        <br><br>
+                        <a href="./Pages/pastries.html"> Pastries</a>
+                    </span></div>
+            </div>
+
+            <div class="right-box">
+                <h2 class="footer-text">Contact us</h2>
+                <div class="location-img">
+                    <img src="./IMGS/google-maps.png" height="18px">
+
+                    <span class="subtitle">307, Kothari Heights, Above Bus </br>
+                        Stand Shrigonda,</br>
+                        A.Nagar - 413701
+                    </span>
+                </div>
+                </br>
+                <div class="phone-img">
+                    <img src="./IMGS/phone-call.png" height="18px">
+
+
+                    <span class="subtitle">+91-7709482439
+
+                    </span>
+                </div>
+                </br>
+                <div class="mail-img">
+                    <img src="./IMGS/gmail.png" height="18px">
+
+                    <a href="mailto:customizedcovers1246@email.com">sweetcake@gmail.com</a>
+                </div>
+                </br>
+                </br>
+                <div class="logos">
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+
+                    <p><a href="https://www.instagram.com/customized_mobile_cover007" target="_blank"><img
+                                src="./IMGS/instagram.png" height="25px" alt="Instagram"></a></p>
+                </div>
+
+                <div class="logos">
+                    <p><a href="https://www.facebook.com/#hcdc30smb2k15jw" target="_blank"><img src="./IMGS/facebook.png"
+                                height="25px" alt="facebook"></a></p>
+
+                </div>
+
+
+
+                <div class="logos">
+                    <p><a href="https://www.youtube.com/results?search_query=customized+phone+cover"
+                            target="_blank"><img src="./IMGS/youtube.png" height="30px" alt="Youtube"></a></p>
+                </div>
+
+
+
+
+
+            </div>
+            </br>
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
-
 </html>
