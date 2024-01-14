@@ -9,6 +9,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <script src="./../Javascript/signup.js"></script>
     <style>
         * {
             padding: 0;
@@ -40,6 +41,19 @@
             margin-top: 120px;
             width: 30%;
         }
+
+        .form-control {
+            color: black;
+            border-bottom-color: rgba(0, 0, 0, .42);
+
+            border: none;
+            border-bottom: 1px solid;
+            border-radius: 4px 4px 0 0;
+        }
+          .error-message {
+            color: red;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 
@@ -52,25 +66,24 @@
                 <h2 class="text-center">Signup</h2>
                 <div class="mb-3">
                     <label for="username" class="form-label">Username</label>
-                    <input type="text" class="form-control" id="username" placeholder="Username" required>
+                    <input type="text" class="form-control" id="username" required>
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                    <input type="email" class="form-control" id="email" required>
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password" placeholder="Password" required>
+                    <input type="password" class="form-control" id="password" required>
                 </div>
                 <div class="mb-3">
                     <label for="confirmPassword" class="form-label">Confirm Password</label>
-                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password"
-                        required>
+                    <input type="password" class="form-control" id="confirmPassword" required>
                 </div>
                 <p class="error-message" id="errorMessage"></p>
 
-                <button type="submit" class="btn w-100 rounded mt-3" onclick="validateForm()"><a href="./login.html"
-                        class="text-decoration-none text-light">Sign Up</a></button>
+                <button type="submit" class="btn w-100 rounded mt-3 text-light" onclick="Signupsuccessful()">Sign
+                    Up</button>
 
             </form>
         </div>
