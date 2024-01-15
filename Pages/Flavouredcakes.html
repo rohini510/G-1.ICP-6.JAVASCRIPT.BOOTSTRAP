@@ -20,13 +20,65 @@
           transform:scale(1.05);
         }
        
+      .hover-img:hover{
+        transition: 0.3s;
+      transform: scale(1.05);
+      border-radius: 3%;
+      }
 </style>
 </head>
 <body>
-    <h1 class="fw-bold text-center mt-4">Chocolate cakes</h1>
+
+  <nav class="navbar navbar-expand-lg bg">
+    <div class="container-fluid">
+      <img src="../IMGS/homepage img/logo.png" class="rounded-circle" style="width: 5%">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link  font-color ms-4" href="Index.html">Home</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle font-color ms-3 " href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Cakes
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./Pages/Flavouredcakes.html">Flavours</a></li>
+              <li><a class="dropdown-item" href="./Pages/Occassions.html">Occassions</a></li>
+              <li><hr class="dropdown-divider"></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  font-color ms-4  " href="./Pages/Cupcakes.html">Cupcakes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  font-color ms-4 " href="./Pages/pastries.html">pastries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  font-color ms-4" href="./Pages/About us.html">About us</a>
+          </li>
+        </ul>
+        <form class="d-flex me-5 " role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-secondary font-color" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  <a href="./Pages/AddtoCart.html">  <img src="../IMGS/homepage img/shopping-cart.png" class="me-3 "  style="width: 35%"></a>
+   <a href="./Pages/login.html"> <img src="../IMGS/homepage img/login.png" class="me-5"  style="width: 25%"></a>
+      </nav>
+
+
+
+
+
+    <h1 class="fw-bold text-center mt-5">Chocolate cakes</h1>
     <div class="container d-flex mt-5">
     
-    <div class="card  ms-5 me-5 p-3 mb-5" style="width: 50rem;">
+    <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/chococake1.webp" class="card-img-top " alt="...">
         <div class="card-body">
           <h5 class="card-title">Classic Chocolate Truffle Cake</h5>
@@ -41,7 +93,7 @@
       </div>
      
 
-      <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/chococake2.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Belgian Chocolate Cake</h5>
@@ -55,7 +107,7 @@
         </div>
       </div>
 
-      <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/chococake3.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Chocolate Cake N Milk Brooch</h5>
@@ -70,11 +122,11 @@
       </div>
     </div>
     <div class="container d-flex mt-5">
-        <div class="card   ms-5 me-5 p-3 mb-5" style="width: 50rem;">
+        <div class="card   ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
             <img src="../IMGS/flavouredcakes/chococake4.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Chocolate Ferrero Rocher Cake</h5>
-              <p class="card-text"> Made of three layers of rich Chocolate cream, Ferrero Rocher and hazelnut flavour, this Choco ball treat is  an irresistible treat.</p>
+              <p class="card-text"> Made of layers of  Chocolate cream, Ferrero Rocher and hazelnut flavour, this Choco ball treat is  an irresistible treat.</p>
               <p class="fw-bold">₹ 949
                 <s class="fw-light">₹ 999</s>
                 (10% OFF)</p>
@@ -84,7 +136,7 @@
             </div>
         </div>
 
-            <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+            <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
                 <img src="../IMGS/flavouredcakes/chococake5.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Nutella Hazelnut Cake</h5>
@@ -98,7 +150,7 @@
                 </div>
             </div>
     
-                <div class="card me-5 p-3 mb-5 " style="width: 50rem;">
+                <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
                     <img src="../IMGS/flavouredcakes/chococake6.webp" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Chocolate Mud Cake</h5>
@@ -117,10 +169,10 @@
     <h1 class="fw-bold text-center mt-4">Vanilla cakes</h1>
     <div class="container d-flex mt-5">
     
-    <div class="card ms-5 me-5 p-3 mb-5" style="width: 50rem;">
+    <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/vanilacake1.webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Chocolate Vanilla Half N Half Cake</h5>
+          <h5 class="card-title">Chocolate Vanilla Half Cake</h5>
           <p class="card-text">A toothsome treat for the sugar lovers who are just passionate about chocolate and relish the mushiness of cake.  </p>
           <p class="fw-bold">₹ 539
             <s class="fw-light">₹ 589</s>
@@ -131,7 +183,7 @@
         </div>
       </div>
 
-      <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/vanilacake2.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Colourful Sprinkles Vanilla Cake
@@ -146,7 +198,7 @@
         </div>
       </div>
 
-      <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/vanilacake3.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Heart Black Forest Vanilla Cake</h5>
@@ -161,7 +213,7 @@
       </div>
     </div>
     <div class="container d-flex mt-5">
-        <div class="card  ms-5 me-5 p-3 mb-5" style="width: 50rem;">
+        <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
             <img src="../IMGS/flavouredcakes/vanilacake4.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Heart-Shaped Brooch Cake</h5>
@@ -175,7 +227,7 @@
             </div>
         </div>
 
-            <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+            <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
                 <img src="../IMGS/flavouredcakes/vanilacake5.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Warmth Of Love Vanilla Cake</h5>
@@ -189,7 +241,7 @@
                 </div>
             </div>
     
-                <div class="card me-5 p-3 mb-5 " style="width: 50rem;">
+                <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
                     <img src="../IMGS/flavouredcakes/vanilacake6.webp" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Fruit Funfetti Vanilla Cake</h5>
@@ -208,11 +260,11 @@
     <h1 class="fw-bold text-center mt-4">Strawberry cakes</h1>
     <div class="container d-flex mt-5">
     
-    <div class="card ms-5 me-5 p-3 mb-5" style="width: 50rem;">
+    <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded " style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/berrycake1.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Round Strawberry Cream Cake</h5>
-          <p class="card-text"> Dive Into The World Of Real Strawberries As You Delight Yourself And Your Loved Ones With This Scrumptious Strawberry Cake.</p>
+          <p class="card-text"> Dive Into The World Of Strawberries As You Delight Yourself And Your Loved Ones With This Strawberry Cake.</p>
           <p class="fw-bold">₹ 539
             <s class="fw-light">₹ 589</s>
             (10% OFF)</p>
@@ -222,12 +274,12 @@
         </div>
       </div>
 
-      <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/berrycake2.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Pretty Pink Rose Strawberry Cake
         </h5>
-          <p class="card-text"> This toothsome strawberry rose is a divine three-layered dessert filled with rich strawberry cream and crushed strawberries. </p>
+          <p class="card-text"> This strawberry rose is a divine three-layered dessert filled with rich strawberry cream and crushed strawberries. </p>
           <p class="fw-bold">₹ 549
             <s class="fw-light">₹ 599</s>
             (10% OFF)</p>
@@ -237,7 +289,7 @@
         </div>
       </div>
 
-      <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+      <div class="card me-5 p-3 mb-5 hover-img  shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/berrycake3.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Rose Heart Strawberry Cake</h5>
@@ -252,7 +304,7 @@
       </div>
     </div>
     <div class="container d-flex mt-5">
-        <div class="card ms-5 me-5 p-3 mb-5" style="width: 50rem;">
+        <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
             <img src="../IMGS/flavouredcakes/berrycake4.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Dripping Strawberry Half Cake</h5>
@@ -266,7 +318,7 @@
             </div>
         </div>
 
-            <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+            <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
                 <img src="../IMGS/flavouredcakes/berrycake5.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Warmth Of Love Strawberry Cake</h5>
@@ -280,7 +332,7 @@
                 </div>
             </div>
     
-                <div class="card me-5 p-3 mb-5 " style="width: 50rem;">
+                <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
                     <img src="../IMGS/flavouredcakes/berrycake6.webp" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Future is Female Strawberry Cake</h5>
@@ -299,7 +351,7 @@
 <h1 class="fw-bold text-center mt-4">Red Velvet Cakes</h1>
     <div class="container d-flex mt-5">
     
-    <div class="card ms-5 me-5 p-3 mb-5" style="width: 50rem;">
+    <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/redcake1.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Heavenly Red Velvet Cake</h5>
@@ -313,12 +365,12 @@
         </div>
       </div>
 
-      <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/redcake2.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Pretty Red Rose Velvet Cake
         </h5>
-          <p class="card-text"> This cake has very moist texture,treat yourself to this masterpiece cake and savour the enchanting taste of our Red Velvet Cake. </p>
+          <p class="card-text"> This cake has moist texture,treat yourself to this  cake and savour the enchanting taste of our Red Velvet Cake. </p>
           <p class="fw-bold">₹ 549
             <s class="fw-light">₹ 599</s>
             (10% OFF)</p>
@@ -328,7 +380,7 @@
         </div>
       </div>
 
-      <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/redcake3.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Red Velvet Coffee Cake</h5>
@@ -342,8 +394,8 @@
         </div>
       </div>
     </div>
-    <div class="container d-flex mt-5">
-        <div class="card ms-5  me-5 p-3 mb-5" style="width: 50rem;">
+    <div class="container d-flex mt-5  ">
+        <div class="card ms-5  me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
             <img src="../IMGS/flavouredcakes/redcake4.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Blooming Velvet Cake</h5>
@@ -357,11 +409,11 @@
             </div>
         </div>
 
-            <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+            <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
                 <img src="../IMGS/flavouredcakes/redcake5.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Heart Shaped Red Velvet Cake </h5>
-                  <p class="card-text"> Celebrate the day of love with your beloved partner by getting your hands on this lip-smacking Heart Shaped Red Velvet  cake. </p>
+                  <p class="card-text"> Celebrate the day of love with your beloved partner by getting your hands on this lip-smacking  Red Velvet  cake. </p>
                   <p class="fw-bold">₹ 1025
                     <s class="fw-light">₹ 1075</s>
                     (10% OFF)</p>
@@ -371,10 +423,10 @@
                 </div>
             </div>
     
-                <div class="card me-5 p-3 mb-5 " style="width: 50rem;">
+                <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
                     <img src="../IMGS/flavouredcakes/redcake6.webp" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Red Velvet Cake With Choco Sticks</h5>
+                      <h5 class="card-title">Red Velvet Cake With Choco </h5>
                       <p class="card-text"> Fill up on a yummy, frosted Red Velvet cake with an evergreen classic vanilla icing with delicious chocolate sticks on top. </p>
                       <p class="fw-bold">₹ 1299
                         <s class="fw-light">₹ 1349</s>
@@ -391,7 +443,7 @@
     <h1 class="fw-bold text-center mt-4">Butterscotch Cakes</h1>
     <div class="container d-flex mt-5">
     
-    <div class="card  ms-5 me-5 p-3 mb-5" style="width: 50rem;">
+    <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/buttercake1.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Butterscotch Chocolate Cake</h5>
@@ -405,7 +457,7 @@
         </div>
       </div>
 
-      <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/buttercake2.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Dripping Butterscotch Cake
@@ -420,7 +472,7 @@
         </div>
       </div>
 
-      <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/buutercake3.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Heart Shape Butterscotch Cake</h5>
@@ -435,7 +487,7 @@
       </div>
     </div>
     <div class="container d-flex mt-5">
-        <div class="card  ms-5 me-5 p-3 mb-5" style="width: 50rem;">
+        <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
             <img src="../IMGS/flavouredcakes/buttercake4.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Butterscotch Cake With Cherry </h5>
@@ -449,7 +501,7 @@
             </div>
         </div>
 
-            <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+            <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
                 <img src="../IMGS/flavouredcakes/buttercake5.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Butterscotch Cake With  Swirls</h5>
@@ -463,7 +515,7 @@
                 </div>
             </div>
     
-                <div class="card me-5 p-3 mb-5 " style="width: 50rem;">
+                <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
                     <img src="../IMGS/flavouredcakes/buttercake6.webp" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Butterscotch Heart Shaped Cake</h5>
@@ -482,7 +534,7 @@
     <h1 class="fw-bold text-center mt-4">Fruit Cakes</h1>
     <div class="container d-flex mt-5">
     
-    <div class="card  ms-5 me-5 p-3 mb-5" style="width: 50rem;">
+    <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded " style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/fruitcake1.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Fruits N Roasted Almond Cake</h5>
@@ -496,7 +548,7 @@
         </div>
       </div>
 
-      <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/fruitcake2.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Chocolate Truffle Fruit Cake
@@ -511,7 +563,7 @@
         </div>
       </div>
 
-      <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/fruitcake3.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Fruit Funfetti Vanilla Cake</h5>
@@ -526,7 +578,7 @@
       </div>
     </div>
     <div class="container d-flex mt-5">
-        <div class="card ms-5  me-5 p-3 mb-5" style="width: 50rem;">
+        <div class="card ms-5  me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
             <img src="../IMGS/flavouredcakes/fruitcake4.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Red Velvet Fruit Layer Cake</h5>
@@ -540,7 +592,7 @@
             </div>
         </div>
 
-            <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+            <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
                 <img src="../IMGS/flavouredcakes/fruitcake5.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Heart Shape Fruit Nut Cake</h5>
@@ -554,7 +606,7 @@
                 </div>
             </div>
     
-                <div class="card me-5 p-3 mb-5 " style="width: 50rem;">
+                <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
                     <img src="../IMGS/flavouredcakes/fruitcake6.webp" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Fresh Kiwi Fruits Round Cake</h5>
@@ -573,7 +625,7 @@
     <h1 class="fw-bold text-center mt-4">Black Forest Cakes</h1>
     <div class="container d-flex mt-5">
     
-    <div class=" ms-5 card me-5 p-3 mb-5" style="width: 50rem;">
+    <div class=" ms-5 card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/blackcake1.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Black Forest Cherry Cake</h5>
@@ -587,7 +639,7 @@
         </div>
       </div>
 
-      <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/blackcake2.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Black Forest Half Cake
@@ -602,7 +654,7 @@
         </div>
       </div>
 
-      <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/blackcake3.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Scrumptious Black Forest Cake</h5>
@@ -617,7 +669,7 @@
       </div>
     </div>
     <div class="container d-flex mt-5">
-        <div class="card ms-5 me-5 p-3 mb-5" style="width: 50rem;">
+        <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
             <img src="../IMGS/flavouredcakes/blackcake4.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Caramel Crunch Cream Cake</h5>
@@ -631,7 +683,7 @@
             </div>
         </div>
 
-            <div class="card me-5 p-3 mb-5" style="width: 50rem;">
+            <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
                 <img src="../IMGS/flavouredcakes/blackcake5.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Square Choco Black Forest Cake</h5>
@@ -645,7 +697,7 @@
                 </div>
             </div>
     
-                <div class="card me-5 p-3 mb-5 " style="width: 50rem;">
+                <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
                     <img src="../IMGS/flavouredcakes/blackcake6.webp" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Black Forest Cherry Cake</h5>
