@@ -32,6 +32,15 @@
             transition: 0.3s;
             transform: scale(1.1);
         }
+
+
+        /* login */
+        .task {
+
+            width: 30%;
+        }
+
+      
     </style>
 </head>
 
@@ -39,6 +48,33 @@
     <div class="text-center fw-bold fs-4 text-danger mt-5 mb-2">
         Add More Fun To Celebration.....
 
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="mx-auto rounded bg-light p-3 task">
+
+            <h3 class="text-center text-danger m-2">Add to Cart</h3>
+            <div class="">
+
+                <div id="studyList">
+                     <p class="text-center">Chocolate Truffle Cake 🎂</p>
+                     <p class="text-center">Red Velvet Pastry 🍰</p>
+                     <p class="text-center">Vanilla Flavour cupcake 🧁<p>
+                </div>
+               
+                <div class="d-flex justify-content-center">
+                <input type="text" placeholder="" class="form-control mb-3" id="studyInput" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-danger " onclick="addToList()">
+                        Add
+                    </button>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <div class="container text-center">
@@ -111,8 +147,6 @@
 
         </div>
 
-
-
         <div class="row m-5">
             <div class="col-lg-3 col-md-6 col-sm-12 container">
                 <div class="card p-2 shadow" style="width: 15rem;">
@@ -182,7 +216,6 @@
 
 
         </div>
-
 
         <div class="row m-5">
             <div class="col-lg-3 col-md-6 col-sm-12 container">
@@ -258,14 +291,19 @@
 
 
     </div>
-    <br><br>
+    <br>
+
+
+  
+    <br><br><br><br>
 
     <div class="fixed-bottom">
         <div class="text-center fw-bold fs-4 text-danger  mb-2">
             <div style="height: 4rem;" class="bg-light">
                 <div class="d-grid gap-2 col-6 mx-auto ">
 
-                    <button class="btn btn-danger mt-3" type="button" id="liveToastBtn" onclick="toastclick()">Continue</button>
+                    <button class="btn btn-danger mt-3" type="button" id="liveToastBtn"
+                        onclick="toastclick()">Continue</button>
 
 
                     <!-- <div class="toast-container position-fixed bottom-0 end-0 p-3">
@@ -288,17 +326,29 @@
 
     </div>
 
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
         </script>
 
+    <script>
+        const study = [];
+        function addToList() {
+            const subjectName = document.getElementById("studyInput").value;
+            study.push(subjectName);
+            document.getElementById("studyInput").value = " ";
+            loadList();
+        }
 
+        function loadList() {
+            const studyList = document.getElementById("studyList");
 
+            studyList.innerHTML = "";
+            
+            for (let i = 0; i < study.length; i++) {
+                studyList.innerHTML = studyList.innerHTML + `<li>${study[i]}</li>`;
+            }
+        }
+    </script>
 
 </body>
 
