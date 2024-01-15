@@ -13,27 +13,282 @@
       body{
             background-color:#fdeef3;
       } 
-       .w-80{
-        height: 500px;
-        width: 700px;
-       }
+      .bg{
+            background-color: #3E3232;
+        }
+        .font-color{
+            color: white;
+        }
+       
        img:hover{
             transition: 0.3s;
         transform: scale(1.1);
         }
+
+        .foorte-logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-h1{
+    /* display: inline;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 2px; 
+    border-bottom:5px solid orange; */
+
+    display: inline;
+    font-family: 'Bree Serif', serif;
+    padding-left: 2px; 
+    color:#FFE5E5 ;
+}
+.footer-logo{
+    height: 70px;
+    background-color: #e6c1c9;
+    border: 1px solid #ff0037;
+    border-radius: 40px;
+    margin: 20px;
+}
+.footer-p{
+    font-family: 'Bree Serif', serif;
+    padding-left: 10px
+}
+
+a {
+    color:#FFE5E5 ;
+    text-decoration: none;
+}
+a:hover {
+    color: tomato;
+    font-family: 'Bree Serif', serif;
+}
+
+.footer {
+    background-color: #3E3232;
+    width: 99%;
+    padding: 5px;
+    margin-top:99px;
+    right: 0%;
+    font-family: 'Bree Serif', serif;
+    bottom: 0%;
+    border-radius: 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    zpadding: 5px;
+    text-decoration: none;
+}
+.footer-text {
+    font-size: 24px;
+    font-family: 'Bree Serif', serif;
+}
+.footer1 {
+    width: 150px;
+    font-family: 'Bree Serif', serif;
+}
+
+.social {
+    display: none;
+}
+
+.footer-text {
+    font-size: 24px;
+}
+.social {
+    display: none;
+}
+.footer-text {
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+
+    color:#FFE5E5 ;
+
+}
+.footer-detail {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.social {
+    padding: 10px;
+}
+.text {
+    color:#FFE5E5 ;
+    cursor: pointer;
+
+
+}
+.subtitle {
+    cursor: pointer;
+    color:#FFE5E5 ;
+    text-decoration: none;
+
+}
+
+.logos {
+    color:#FFE5E5 ;
+    cursor: pointer;
+
+    display: inline-block;
+    margin-left: 10px;
+    padding: 20px;
+
+
+    transition: transform 0.2s;
+}
+.right-box {
+    margin-left: 20px;
+}
+.center-box {
+    margin-left: 20px;
+}
+.mail-img {
+    margin-right: 10px;
+
+}
+
+@media (max-width: 600px) {
+
+    .footer {
+        background-color:;
+        width: 100%;
+        padding: 5px;
+        margin-top: 10px;
+        border-radius: 10px;
+        height: 1000px;
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 5px;
+
+    }
+
+    .footer1 {
+        width: 100%;
+    }
+
+    .footer-text {
+        font-size: 30px;
+        color:#FFE5E5 ;
+        
+    }
+
+    .footer-detail {
+        color:#FFE5E5 ;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .text {
+        color:#FFE5E5 ;
+        cursor: pointer;
+    }
+
+    .subtitle {
+        cursor: pointer;
+        color:#FFE5E5 ;
+    }
+
+    .logos {
+        color: white;
+        cursor: pointer;
+        display: inline;
+        margin-left: 10px;
+        padding: 20px;
+    }
+
+    .right-box {
+        margin-right: 200px;
+
+    }
+
+    .center-box {
+        margin-right: 350px;
+    }
+
+    .mail-img {
+        margin-right: 40px;
+
+    }
+
+    .email {
+        text-decoration:none;
+}
+
+
+}
     </style>
 </head>
 <body>
   
+    <nav class="navbar navbar-expand-lg bg">
+        <div class="container-fluid">
+          <img src="../IMGS/homepage img/logo.png" class="rounded-circle" style="width: 5%">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  font-color ms-4" href="Index.html">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle font-color ms-3 " href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cakes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./Pages/Flavouredcakes.html">Flavours</a></li>
+                  <li><a class="dropdown-item" href="./Pages/Occassions.html">Occassions</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  font-color ms-4  " href="./Pages/Cupcakes.html">Cupcakes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  font-color ms-4 " href="./Pages/pastries.html">pastries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  font-color ms-4" href="./Pages/About us.html">About us</a>
+              </li>
+            </ul>
+            <form class="d-flex me-5 " role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary font-color" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      <a href="./Pages/AddtoCart.html">  <img src="../IMGS/homepage img/shopping-cart.png" class="me-3 "  style="width: 35%"></a>
+       <a href="./Pages/login.html"> <img src="../IMGS/homepage img/login.png" class="me-5"  style="width: 25%"></a>
+          </nav>
+
+
+
+
+
    <div class="row g-0  position-relative">
     <div class="col-md-6 mb-md-0 p-md-4">
       <img src="/IMGS/about img/background 90.jpg" class="w-100" alt="...">
     </div>
     <div class="col-md-6 p-4 ps-md-0">
       <h5 class="mt-0">Our Story</h5>
-      <p>Our Story
-
-        When you send a cake, we know you aren’t just sending dessert. You are sending a moment of celebration, joy, healing and togetherness. When you can’t be there to celebrate in person, We Take The Cake makes it easy to delight your family, friends and colleagues with our freshly baked desserts delivered right to their doorstep ready to enjoy.  Our experienced bakers mix all of our batters and frostings by hand, just like grandma used to make.  We always bake with whole buttermilk, fresh eggs and real butter – never a cake mix or commercially made frostings. 
+      <p>Our Story</p>
+       <p>
+        When you send a cake, we know you aren't just sending dessert. You are sending a moment of celebration, joy, healing and togetherness. When you can't be there to celebrate in person, We Take The Cake makes it easy to delight your family, friends and colleagues with our freshly baked desserts delivered right to their doorstep ready to enjoy.  Our experienced bakers mix all of our batters and frostings by hand, just like grandma used to make.  We always bake with whole buttermilk, fresh eggs and real butter – never a cake mix or commercially made frostings. 
         <br><br>
         We understand that elegant presentation matters as much as the taste, and our team of very talented cake artisans take the time to decorate every cake by hand.  Our shipping team then carefully packages your cake in our custom designed decorative boxes and sends them off to you.  We Take The Cake goes the extra mile to make sure our mail order desserts deliver an experience that makes you proud that you chose us to create the gift people will talk about long after the celebration is over. 
         <br><br>
@@ -44,7 +299,7 @@
 
     
     <div class="text-center fw-bold fs-4 text-danger mt-5 mb-2">
-     <u><h1 class="card-title mt-5 text-center fw-bold text-outline-primary">.....Wear-a-Small-Team......</h1></u>
+     <u><h1 class="card-title mt-5 text-center fw-bold text-outline-primary">.....We'are-a-Small-Team......</h1></u>
 
     </div>
 
