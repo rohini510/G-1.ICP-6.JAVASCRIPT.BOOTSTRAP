@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="occassion.css">
+
 </head>
+
 <body>
+    <div class="container">
+        <img src="../IMGS/Allcakes/logo-1.jpeg" class="main-img">
+        <header>All Cake Products</header>
+        <br><br><br><br><br><br><br>
+        <h class="h">SHOP BY</h> 
+        <ul class="shop-text">
+          
+            <li><a href="birthday-cake.html">Birthday Cakes</a></li>
+            <li><a href="Anniversary-cakes.html">Anniversary Cakes</a></li>
+            <li><a href="Engagement-cakes.html">Engagement Cakes</a></li>
+            <li><a href="wedding-cakes.html">Wedding Cakes</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="product-container">
+        <div class="product-card">
+            <img src="../IMGS/Allcakes/BIRTHDAY-CAKAE-5.jpeg" height="250px">
+            <h4>BIRTHDAY CELEBRATION CHOCOLATE CAKE</h4>
+            <p>23 reviews</p>
+            <p>Price: <span>$19.99</span></p>
+        </div>
+
+        <div class="product-card">
+            <img src="../IMGS/Allcakes/aann-3.jpeg" height="250px" width="350px">
+            <h4>ANNIVERSARY CELEBRATION GOLDEN BUTTER CAKE</h4>
+            <p>19 reviews</p>
+            <p>Price: <span>$15.99</span></p>
+        </div>
+
+        <div class="product-card">
+            <img src="../IMGS/Allcakes/Engagement-Cake-3.jpg" height="250px">
+            <h4>GLUTEN-FREE ENGAGEMENT CELEBRATION CHOCOLATE CAKE</h4>
+            <p>15 reviews</p>
+            <p>Price: <span>$24.99</span></p>
+        </div>
+
+        <div class="product-card">
+            <img src="../IMGS/Allcakes/wedding-4.jpg" height="250px">
+            <h4>GLUTEN WEDDING CELEBRATION CHOCOLATE CAKE</h4>
+            <p>15 reviews</p>
+            <p>Price: <span>$22.99</span></p>
+            </div> 
+    </div>
+    <script>
+      
+      document.addEventListener('DOMContentLoaded', function() {
+    const shopTextLinks = document.querySelectorAll('.shop-text li a');
+
+    shopTextLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+            this.style.transform = 'scale(1.2)';
+        });
+
+        link.addEventListener('mouseover', function() {
+            this.style.transform = 'scale(1.1)';
+        });
+
+        link.addEventListener('mouseout', function() {
+            this.style.transform = 'scale(1)';
+        });
+    });
+});
+
+    </script>
     
+        
 </body>
+
 </html>
