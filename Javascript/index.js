@@ -97,11 +97,15 @@ function changecake11(imageName) {
     const mainImage = document.getElementById('cake-img1');
     mainImage.src = imageName
 }
-function changecake12(imageName) {
-    const mainImage = document.getElementById('cake-img2');
+function changeAirpod11(imageName) {
+    const mainImage = document.getElementById('airpod-main-img1');
     mainImage.src = imageName
 }
-function changecake13(imageName) {
-    const mainImage = document.getElementById('cake-img3');
+function changeAirpod12(imageName) {
+    const mainImage = document.getElementById('airpod-main-img2');
+    mainImage.src = imageName
+}
+function changeAirpod13(imageName) {
+    const mainImage = document.getElementById('airpod-main-img3');
     mainImage.src = imageName
 }
