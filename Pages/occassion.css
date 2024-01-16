@@ -10,6 +10,14 @@ body {
 .bg{
     background-color: #3E3232;
 }
+  
+  .font-color{
+      color: white;
+  }
+  .font-color:hover
+  {
+    color: white;
+  }
 .nav-link{
     color: #f0e6e6;
     text-align: center;
