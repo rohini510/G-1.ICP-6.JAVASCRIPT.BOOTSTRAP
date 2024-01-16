@@ -7,26 +7,40 @@
     <link rel ="stylesheet" href="../CSS/footer.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-<style>
-            body{
-            background-color:#fdeef3;
-        }
-        .btn-color{
-          background-color:#3E3232;
-          
-        }
-        .btn:hover{
-          background-color:#3E3232; 
-          transition: 0.1s;
-          transform:scale(1.05);
-        }
-       
-      .hover-img:hover{
-        transition: 0.3s;
+
+  <style>
+    body {
+      background-color: #fdeef3;
+    }
+
+    .btn-color {
+      background-color: #3E3232;
+
+    }
+
+    .btn:hover {
+      background-color: #3E3232;
+      transition: 0.1s;
+      transform: scale(1.05);
+    }
+
+    .hover-img:hover {
+      transition: 0.3s;
       transform: scale(1.05);
       border-radius: 3%;
-      }
-      .bg{
+
+    }
+
+    .Slidesize {
+      width: 70%;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+    
+    .bg{
             background-color: #3E3232;
         }
         .bg1{
@@ -42,15 +56,21 @@
          
           height: 700px;
         }
-</style>
+  </style>
+
+      
+
+
 
 </head>
+
 <body>
 
   <nav class="navbar navbar-expand-lg bg">
     <div class="container-fluid">
       <img src="../IMGS/homepage img/logo.png" class="rounded-circle" style="width: 5%">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -58,15 +78,18 @@
           <li class="nav-item">
             <a class="nav-link  font-color ms-4" href="../Index.html">Home</a>
           </li>
-          
+
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle font-color ms-3 " href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle font-color ms-3 " href="" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               Cakes
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="../Pages/Flavouredcakes.html">Flavours</a></li>
               <li><a class="dropdown-item" href="./Pages/Occassions.html">Occassions</a></li>
-              <li><hr class="dropdown-divider"></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
             </ul>
           </li>
           <li class="nav-item">
@@ -85,209 +108,323 @@
         </form>
       </div>
     </div>
-  <a href="./Pages/AddtoCart.html">  <img src="../IMGS/homepage img/shopping-cart.png" class="me-3 "  style="width: 35%"></a>
-   <a href="./Pages/login.html"> <img src="../IMGS/homepage img/login.png" class="me-5"  style="width: 25%"></a>
-      </nav>
+    <a href="./Pages/AddtoCart.html"> <img src="../IMGS/homepage img/shopping-cart.png" class="me-3 "
+        style="width: 35%"></a>
+    <a href="./Pages/login.html"> <img src="../IMGS/homepage img/login.png" class="me-5" style="width: 25%"></a>
+  </nav>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide Slidesize rounded">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+     <button type="button"  data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+
+        <button type="button"  data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
 
      
       
 
 
-    <h1 class="fw-bold text-center mt-5">Chocolate cakes</h1>
-    <div class="container d-flex mt-5">
-    
-    <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-        <img src="../IMGS/flavouredcakes/chococake1.webp" class="card-img-top " alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Classic Chocolate Truffle Cake</h5>
-          <p class="card-text">Satiate your taste a buds right away! Enrich with chocolate sponge & Classic Chocolate truffle cream Cake. </p>
-          <p class="fw-bold">₹ 449
-            <s class="fw-light">₹ 499</s>
-            (10% OFF)</p>
-            <p> 4.9 ⭐ (1300 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light ">Add to Cart</a>
-          <a href="" class="btn btn-color text-light ms-3 ">Buy Now</a>
+    <div class="carousel-inner rounded">
+      <div class="carousel-item active">
+        <a href="#chocolate-cake">
+          <img src="./../IMGS/flavouredcakes/chococake-center.jpg" class="d-block w-100 img-fluid" height="500px"
+            alt="..."></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Chocolate Cakes</h5>
+
         </div>
       </div>
-     
+      <div class="carousel-item rounded">
+        <a href="#vanila-cake">
+          <img src="./../IMGS/flavouredcakes/vanilacake-center.jpg" class="d-block w-100 img-fluid"
+            height="500px" alt=" ...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Vanilla Cakes</h5>
 
-      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-        <img src="../IMGS/flavouredcakes/chococake2.webp" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Belgian Chocolate Cake</h5>
-          <p class="card-text">A symphony of  flavors awaits discerning cake , offering a velvety taste that lingers in the senses.</p>
-          <p class="fw-bold">₹ 549
-            <s class="fw-light">₹ 599</s>
-            (10% OFF)</p>
+          </div>
+      </div>
+      <div class="carousel-item rounded">
+        <a href="#red-velvet-cake">
+        <img src="./../IMGS/flavouredcakes/redcake-center.jpg" class="d-block w-100 img-fluid" alt="..."> </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Red Velvet Cake</h5>
+          
+        </div>
+      </div>
+
+      <div class="carousel-item rounded">
+        <a href="#fruit-cake">
+        <img src="./../IMGS/flavouredcakes/fruitcake-center.jpg" class="d-block w-100 img-fluid" alt="..."> </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Fruit Cake</h5>
+          
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+  <!-- cards -->
+
+  <div>
+
+
+    <div id="chocolate-cake">
+      <h1 class="fw-bold text-center mt-5 text-dark" >Chocolate cakes</h1>
+      <div class="container d-flex mt-5">
+
+        <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+          <img src="../IMGS/flavouredcakes/chococake1.webp" class="card-img-top " alt="...">
+          <div class="card-body ">
+            <h5 class="card-title text-dark">Classic Chocolate Truffle Cake</h5>
+            <p class="card-text text-dark">Satiate your taste a buds right away! Enrich with chocolate sponge & Classic Chocolate
+              truffle cream Cake. </p>
+            <p class="fw-bold text-dark" >₹ 449
+              <s class="fw-light text-dark">₹ 499</s>
+              (10% OFF)
+            </p>
+            <p class="text-dark"> 4.9 ⭐ (1300 Reviews)</p>
+            <a href="./AddtoCart.html" class="btn btn-color text-light ">Add to Cart</a>
+            <a href="" class="btn btn-color text-light ms-3 ">Buy Now</a>
+          </div>
+        </div>
+
+
+        <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+          <img src="../IMGS/flavouredcakes/chococake2.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Belgian Chocolate Cake</h5>
+            <p class="card-text">A symphony of flavors awaits discerning cake , offering a velvety taste that lingers in
+              the senses.</p>
+            <p class="fw-bold">₹ 549
+              <s class="fw-light">₹ 599</s>
+              (10% OFF)
+            </p>
             <p> 4.7 ⭐ (990 Reviews)</p>
             <a href="./AddtoCart.html" class="btn btn-color text-light ">Add to Cart</a>
-          <a href="#" class="btn btn-color text-light ms-3 ">Buy Now</a>
+            <a href="#" class="btn btn-color text-light ms-3 ">Buy Now</a>
+          </div>
         </div>
-      </div>
 
-      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-        <img src="../IMGS/flavouredcakes/chococake3.webp" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Chocolate Cake N Milk Brooch</h5>
-          <p class="card-text"> This cake is all about making you fall in love with it. The  chocolaty texture with choco dust can  fulfill your  craving.</p>
-          <p class="fw-bold">₹ 1050
-            <s class="fw-light">₹ 1100</s>
-            (10% OFF)</p>
+        <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+          <img src="../IMGS/flavouredcakes/chococake3.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chocolate Cake N Milk Brooch</h5>
+            <p class="card-text"> This cake is all about making you fall in love with it. The chocolaty texture with
+              choco dust can fulfill your craving.</p>
+            <p class="fw-bold">₹ 1050
+              <s class="fw-light">₹ 1100</s>
+              (10% OFF)
+            </p>
             <p> 5 ⭐ (1500 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+              Cart</a>
+            <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container d-flex mt-5">
+      <div class="container d-flex mt-5">
         <div class="card   ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-            <img src="../IMGS/flavouredcakes/chococake4.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Chocolate Ferrero Rocher Cake</h5>
-              <p class="card-text"> Made of layers of  Chocolate cream, Ferrero Rocher and hazelnut flavour, this Choco ball treat is  an irresistible treat.</p>
-              <p class="fw-bold">₹ 949
-                <s class="fw-light">₹ 999</s>
-                (10% OFF)</p>
-                <p> 4.9 ⭐ (1100 Reviews)</p>
-                <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-              <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-            </div>
+          <img src="../IMGS/flavouredcakes/chococake4.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chocolate Ferrero Rocher Cake</h5>
+            <p class="card-text"> Made of layers of Chocolate cream, Ferrero Rocher and hazelnut flavour, this Choco
+              ball treat is an irresistible treat.</p>
+            <p class="fw-bold">₹ 949
+              <s class="fw-light">₹ 999</s>
+              (10% OFF)
+            </p>
+            <p> 4.9 ⭐ (1100 Reviews)</p>
+            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+              Cart</a>
+            <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+          </div>
         </div>
 
-            <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-                <img src="../IMGS/flavouredcakes/chococake5.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Nutella Hazelnut Cake</h5>
-                  <p class="card-text">This cake is a symphony of opulent flavors, boasting luscious and spongy choco layers that are meticulously enriched in taste. </p>
-                  <p class="fw-bold">₹ 849
-                    <s class="fw-light">₹ 899</s>
-                    (10% OFF)</p>
-                    <p> 5 ⭐ (1600 Reviews)</p>
-                    <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-                  <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-                </div>
-            </div>
-    
-                <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-                    <img src="../IMGS/flavouredcakes/chococake6.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Chocolate Mud Cake</h5>
-                      <p class="card-text">  A true classic, dominant cake that is  to gratiate your taste buds! Made with layers of chocolate sponge and whipped cream.</p>
-                      <p class="fw-bold">₹ 1299
-                        <s class="fw-light">₹ 1349</s>
-                        (10% OFF)</p>
-                        <p> 4.9 ⭐ (900 Reviews)</p>
-                        <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-                      <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-                    </div>
-                </div>
+        <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+          <img src="../IMGS/flavouredcakes/chococake5.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nutella Hazelnut Cake</h5>
+            <p class="card-text">This cake is a symphony of opulent flavors, boasting luscious and spongy choco layers
+              that are meticulously enriched in taste. </p>
+            <p class="fw-bold">₹ 849
+              <s class="fw-light">₹ 899</s>
+              (10% OFF)
+            </p>
+            <p> 5 ⭐ (1600 Reviews)</p>
+            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+              Cart</a>
+            <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+          </div>
+        </div>
+
+        <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+          <img src="../IMGS/flavouredcakes/chococake6.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chocolate Mud Cake</h5>
+            <p class="card-text"> A true classic, dominant cake that is to gratiate your taste buds! Made with layers of
+              chocolate sponge and whipped cream.</p>
+            <p class="fw-bold">₹ 1299
+              <s class="fw-light">₹ 1349</s>
+              (10% OFF)
+            </p>
+            <p> 4.9 ⭐ (900 Reviews)</p>
+            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+              Cart</a>
+            <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
     </div>
 
 
-    <h1 class="fw-bold text-center mt-4">Vanilla cakes</h1>
-    <div class="container d-flex mt-5">
-    
-    <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-        <img src="../IMGS/flavouredcakes/vanilacake1.webp" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Chocolate Vanilla Half Cake</h5>
-          <p class="card-text">A toothsome treat for the sugar lovers who are just passionate about chocolate and relish the mushiness of cake.  </p>
-          <p class="fw-bold">₹ 539
-            <s class="fw-light">₹ 589</s>
-            (10% OFF)</p>
+    <!-- VAnilla cake -->
+    <div id="vanila-cake">
+      <h1 class="fw-bold text-center mt-4">Vanilla cakes</h1>
+      <div class="container d-flex mt-5">
+
+        <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+          <img src="../IMGS/flavouredcakes/vanilacake1.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chocolate Vanilla Half Cake</h5>
+            <p class="card-text">A toothsome treat for the sugar lovers who are just passionate about chocolate and
+              relish the mushiness of cake. </p>
+            <p class="fw-bold">₹ 539
+              <s class="fw-light">₹ 589</s>
+              (10% OFF)
+            </p>
             <p> 4.9 ⭐ (360 Reviews)</p>
-         <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-      <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+              Cart</a>
+            <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+          </div>
         </div>
-      </div>
 
-      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-        <img src="../IMGS/flavouredcakes/vanilacake2.webp" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Colourful Sprinkles Vanilla Cake
-        </h5>
-          <p class="card-text">This cake will give you a tour to heaven and make them delve in divine flavors with this rainbow sprinkled magnificence. </p>
-          <p class="fw-bold">₹ 549
-            <s>₹ 599</s>
-            (10% OFF)</p>
+        <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+          <img src="../IMGS/flavouredcakes/vanilacake2.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Colourful Sprinkles Vanilla Cake
+            </h5>
+            <p class="card-text">This cake will give you a tour to heaven and make them delve in divine flavors with
+              this rainbow sprinkled magnificence. </p>
+            <p class="fw-bold">₹ 549
+              <s>₹ 599</s>
+              (10% OFF)
+            </p>
             <p> 4.7 ⭐ (220 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+              Cart</a>
+            <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+          </div>
         </div>
-      </div>
 
-      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-        <img src="../IMGS/flavouredcakes/vanilacake3.webp" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Heart Black Forest Vanilla Cake</h5>
-          <p class="card-text"> The chocolate and vanilla blend beautifully in texture, yet pleasantly contrast in color and flavor. </p>
-          <p class="fw-bold">₹ 689
-            <s class="fw-light">₹ 739</s>
-            (10% OFF)</p>
+        <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+          <img src="../IMGS/flavouredcakes/vanilacake3.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Heart Black Forest Vanilla Cake</h5>
+            <p class="card-text"> The chocolate and vanilla blend beautifully in texture, yet pleasantly contrast in
+              color and flavor. </p>
+            <p class="fw-bold">₹ 689
+              <s class="fw-light">₹ 739</s>
+              (10% OFF)
+            </p>
             <p> 5 ⭐ (305 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+              Cart</a>
+            <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="container d-flex mt-5">
+        <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+          <img src="../IMGS/flavouredcakes/vanilacake4.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Heart-Shaped Brooch Cake</h5>
+            <p class="card-text"> or someone special like your loved one, this indulgent pick is the only sure-shot way
+              to reach out to their heart.</p>
+            <p class="fw-bold">₹ 949
+              <s class="fw-light">₹ 999</s>
+              (10% OFF)
+            </p>
+            <p> 4.9 ⭐ (229 Reviews)</p>
+            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+              Cart</a>
+            <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+          </div>
+        </div>
+
+        <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+          <img src="../IMGS/flavouredcakes/vanilacake5.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Warmth Of Love Vanilla Cake</h5>
+            <p class="card-text"> Celebrate the day of love with your beloved partner by getting your hands on this
+              lip-smacking Vanilla cake. </p>
+            <p class="fw-bold">₹ 1025
+              <s class="fw-light">₹ 1075</s>
+              (10% OFF)
+            </p>
+            <p> 5 ⭐ (306 Reviews)</p>
+            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+              Cart</a>
+            <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+          </div>
+        </div>
+
+        <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+          <img src="../IMGS/flavouredcakes/vanilacake6.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fruit Funfetti Vanilla Cake</h5>
+            <p class="card-text"> If you love fruit so much then give this delicious flavorful fruit cake a try and you
+              will enjoy it for sure. </p>
+            <p class="fw-bold">₹ 1299
+              <s class="fw-light">₹ 1349</s>
+              (10% OFF)
+            </p>
+            <p> 5 ⭐ (308 Reviews)</p>
+            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+              Cart</a>
+            <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container d-flex mt-5">
-        <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-            <img src="../IMGS/flavouredcakes/vanilacake4.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Heart-Shaped Brooch Cake</h5>
-              <p class="card-text"> or someone special like your loved one, this indulgent pick is the only sure-shot way to reach out to their heart.</p>
-              <p class="fw-bold">₹ 949
-                <s class="fw-light">₹ 999</s>
-                (10% OFF)</p>
-                <p> 4.9 ⭐ (229 Reviews)</p>
-                <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-              <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-            </div>
-        </div>
 
-            <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-                <img src="../IMGS/flavouredcakes/vanilacake5.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Warmth Of Love Vanilla Cake</h5>
-                  <p class="card-text"> Celebrate the day of love with your beloved partner by getting your hands on this lip-smacking Vanilla cake. </p>
-                  <p class="fw-bold">₹ 1025
-                    <s class="fw-light">₹ 1075</s>
-                    (10% OFF)</p>
-                    <p> 5 ⭐ (306 Reviews)</p>
-                    <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-                  <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-                </div>
-            </div>
-    
-                <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-                    <img src="../IMGS/flavouredcakes/vanilacake6.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Fruit Funfetti Vanilla Cake</h5>
-                      <p class="card-text"> If you love fruit so much then give this delicious flavorful fruit cake a try and you will enjoy it for sure. </p>
-                      <p class="fw-bold">₹ 1299
-                        <s class="fw-light">₹ 1349</s>
-                        (10% OFF)</p>
-                        <p> 5 ⭐ (308 Reviews)</p>
-                        <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-                      <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-                    </div>
-                </div>
-    </div>
 
 
     <h1 class="fw-bold text-center mt-4">Strawberry cakes</h1>
     <div class="container d-flex mt-5">
-    
-    <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded " style="width: 50rem;">
+
+      <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded " style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/berrycake1.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Round Strawberry Cream Cake</h5>
-          <p class="card-text"> Dive Into The World Of Strawberries As You Delight Yourself And Your Loved Ones With This Strawberry Cake.</p>
+          <p class="card-text"> Dive Into The World Of Strawberries As You Delight Yourself And Your Loved Ones With
+            This Strawberry Cake.</p>
           <p class="fw-bold">₹ 539
             <s class="fw-light">₹ 589</s>
-            (10% OFF)</p>
-            <p> 4.9 ⭐ (360 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 4.9 ⭐ (360 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
@@ -296,13 +433,16 @@
         <img src="../IMGS/flavouredcakes/berrycake2.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Pretty Pink Rose Strawberry Cake
-        </h5>
-          <p class="card-text"> This strawberry rose is a divine three-layered dessert filled with rich strawberry cream and crushed strawberries. </p>
+          </h5>
+          <p class="card-text"> This strawberry rose is a divine three-layered dessert filled with rich strawberry cream
+            and crushed strawberries. </p>
           <p class="fw-bold">₹ 549
             <s class="fw-light">₹ 599</s>
-            (10% OFF)</p>
-            <p> 4.7 ⭐ (220 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 4.7 ⭐ (220 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
@@ -311,74 +451,91 @@
         <img src="../IMGS/flavouredcakes/berrycake3.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Rose Heart Strawberry Cake</h5>
+
           <p class="card-text">   Give your partner a rush of romance and deliciousness with this freshly baked Rose Heart Strawberry Cake.</p>
+
           <p class="fw-bold">₹ 689
             <s class="fw-light">₹ 739</s>
-            (10% OFF)</p>
-            <p> 5 ⭐ (305 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (305 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
     </div>
     <div class="container d-flex mt-5">
-        <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-            <img src="../IMGS/flavouredcakes/berrycake4.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Dripping Strawberry Half Cake</h5>
-              <p class="card-text"> Ramp up the special moments with your near and dear ones with this delicious and enticing strawberry half cake.</p>
-              <p class="fw-bold">₹ 949
-                <s class="fw-light">₹ 999</s>
-                (10% OFF)</p>
-                <p> 4.9 ⭐ (229 Reviews)</p>
-                <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-              <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-            </div>
+      <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/berrycake4.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dripping Strawberry Half Cake</h5>
+          <p class="card-text"> Ramp up the special moments with your near and dear ones with this delicious and
+            enticing strawberry half cake.</p>
+          <p class="fw-bold">₹ 949
+            <s class="fw-light">₹ 999</s>
+            (10% OFF)
+          </p>
+          <p> 4.9 ⭐ (229 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
+      </div>
 
-            <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-                <img src="../IMGS/flavouredcakes/berrycake5.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Warmth Of Love Strawberry Cake</h5>
-                  <p class="card-text"> Celebrate the day of love with your beloved partner by getting your hands on this lip-smacking strawberry cake. </p>
-                  <p class="fw-bold">₹ 1025
-                    <s class="fw-light">₹ 1075</s>
-                    (10% OFF)</p>
-                    <p> 5 ⭐ (306 Reviews)</p>
-                    <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-                  <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-                </div>
-            </div>
-    
-                <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-                    <img src="../IMGS/flavouredcakes/berrycake6.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Future is Female Strawberry Cake</h5>
-                      <p class="card-text"> Extend warm wishes to the lovely ladies for a delightful Women's Day while tickling their hearts with this saccharine treat! </p>
-                      <p class="fw-bold">₹ 1299
-                        <s class="fw-light">₹ 1349</s>
-                        (10% OFF)</p>
-                        <p> 5 ⭐ (308 Reviews)</p>
-                        <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-                      <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-                    </div>
-                </div>
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/berrycake5.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Warmth Of Love Strawberry Cake</h5>
+          <p class="card-text"> Celebrate the day of love with your beloved partner by getting your hands on this
+            lip-smacking strawberry cake. </p>
+          <p class="fw-bold">₹ 1025
+            <s class="fw-light">₹ 1075</s>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (306 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/berrycake6.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Future is Female Strawberry Cake</h5>
+          <p class="card-text"> Extend warm wishes to the lovely ladies for a delightful Women's Day while tickling
+            their hearts with this saccharine treat! </p>
+          <p class="fw-bold">₹ 1299
+            <s class="fw-light">₹ 1349</s>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (308 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+        </div>
+      </div>
     </div>
 
 
-<h1 class="fw-bold text-center mt-4">Red Velvet Cakes</h1>
+    <div id="red-velvet-cake"></div>
+    <h1 class="fw-bold text-center mt-4">Red Velvet Cakes</h1>
     <div class="container d-flex mt-5">
-    
-    <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+
+      <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/redcake1.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Heavenly Red Velvet Cake</h5>
-          <p class="card-text"> Indulge in the ultimate decadence with our Red Velvet Cake, a true delight for the senses. </p>
+          <p class="card-text"> Indulge in the ultimate decadence with our Red Velvet Cake, a true delight for the
+            senses. </p>
           <p class="fw-bold">₹ 699
             <s class="fw-light">₹ 749</s>
-            (10% OFF)</p>
-            <p> 4.9 ⭐ (360 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 4.9 ⭐ (360 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
@@ -387,13 +544,16 @@
         <img src="../IMGS/flavouredcakes/redcake2.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Pretty Red Rose Velvet Cake
-        </h5>
-          <p class="card-text"> This cake has moist texture,treat yourself to this  cake and savour the enchanting taste of our Red Velvet Cake. </p>
+          </h5>
+          <p class="card-text"> This cake has moist texture,treat yourself to this cake and savour the enchanting taste
+            of our Red Velvet Cake. </p>
           <p class="fw-bold">₹ 549
             <s class="fw-light">₹ 599</s>
-            (10% OFF)</p>
-            <p> 4.7 ⭐ (220 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 4.7 ⭐ (220 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
@@ -402,75 +562,91 @@
         <img src="../IMGS/flavouredcakes/redcake3.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Red Velvet Coffee Cake</h5>
-          <p class="card-text">  This deliciously creamy temptation has a perfect blend of everything to beat both Chocolate and Coffee Craving. </p>
+          <p class="card-text"> This deliciously creamy temptation has a perfect blend of everything to beat both
+            Chocolate and Coffee Craving. </p>
           <p class="fw-bold">₹ 689
             <s class="fw-light">₹ 739</s>
-            (10% OFF)</p>
-            <p> 5 ⭐ (305 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (305 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
     </div>
     <div class="container d-flex mt-5  ">
-        <div class="card ms-5  me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-            <img src="../IMGS/flavouredcakes/redcake4.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Blooming Velvet Cake</h5>
-              <p class="card-text"> Ramp up the special moments with your near and dear ones with this delicious and enchanting Blooming Velvet cake.</p>
-              <p class="fw-bold">₹ 949
-                <s class="fw-light">₹ 999</s>
-                (10% OFF)</p>
-                <p> 4.9 ⭐ (229 Reviews)</p>
-                <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-              <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-            </div>
+      <div class="card ms-5  me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/redcake4.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Blooming Velvet Cake</h5>
+          <p class="card-text"> Ramp up the special moments with your near and dear ones with this delicious and
+            enchanting Blooming Velvet cake.</p>
+          <p class="fw-bold">₹ 949
+            <s class="fw-light">₹ 999</s>
+            (10% OFF)
+          </p>
+          <p> 4.9 ⭐ (229 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
+      </div>
 
-            <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-                <img src="../IMGS/flavouredcakes/redcake5.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Heart Shaped Red Velvet Cake </h5>
-                  <p class="card-text"> Celebrate the day of love with your beloved partner by getting your hands on this lip-smacking  Red Velvet  cake. </p>
-                  <p class="fw-bold">₹ 1025
-                    <s class="fw-light">₹ 1075</s>
-                    (10% OFF)</p>
-                    <p> 5 ⭐ (306 Reviews)</p>
-                    <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-                  <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-                </div>
-            </div>
-    
-                <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-                    <img src="../IMGS/flavouredcakes/redcake6.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Red Velvet Cake With Choco </h5>
-                      <p class="card-text"> Fill up on a yummy, frosted Red Velvet cake with an evergreen classic vanilla icing with delicious chocolate sticks on top. </p>
-                      <p class="fw-bold">₹ 1299
-                        <s class="fw-light">₹ 1349</s>
-                        (10% OFF)</p>
-                        <p> 5 ⭐ (308 Reviews)</p>
-                        <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-                      <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-                    </div>
-                </div>
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/redcake5.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Heart Shaped Red Velvet Cake </h5>
+          <p class="card-text"> Celebrate the day of love with your beloved partner by getting your hands on this
+            lip-smacking Red Velvet cake. </p>
+          <p class="fw-bold">₹ 1025
+            <s class="fw-light">₹ 1075</s>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (306 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/redcake6.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Red Velvet Cake With Choco </h5>
+          <p class="card-text"> Fill up on a yummy, frosted Red Velvet cake with an evergreen classic vanilla icing with
+            delicious chocolate sticks on top. </p>
+          <p class="fw-bold">₹ 1299
+            <s class="fw-light">₹ 1349</s>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (308 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+        </div>
+      </div>
+    </div>
     </div>
 
 
 
     <h1 class="fw-bold text-center mt-4">Butterscotch Cakes</h1>
     <div class="container d-flex mt-5">
-    
-    <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+
+      <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/buttercake1.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Butterscotch Chocolate Cake</h5>
-          <p class="card-text"> This lovely crunch cake is one enticing sweet course!This cake is a good way to sum up your celebrations. </p>
+          <p class="card-text"> This lovely crunch cake is one enticing sweet course!This cake is a good way to sum up
+            your celebrations. </p>
           <p class="fw-bold">₹ 699
             <s class="fw-light">₹ 749</s>
-            (10% OFF)</p>
-            <p> 4.9 ⭐ (360 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 4.9 ⭐ (360 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
@@ -479,13 +655,16 @@
         <img src="../IMGS/flavouredcakes/buttercake2.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Dripping Butterscotch Cake
-        </h5>
-          <p class="card-text">Dive into a symphony of sweetness with this Butterscotch Cream Cake and enjoy its every bite with your special one! </p>
+          </h5>
+          <p class="card-text">Dive into a symphony of sweetness with this Butterscotch Cream Cake and enjoy its every
+            bite with your special one! </p>
           <p class="fw-bold">₹ 549
             <s class="fw-light">₹ 599</s>
-            (10% OFF)</p>
-            <p> 4.7 ⭐ (220 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 4.7 ⭐ (220 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
@@ -494,74 +673,89 @@
         <img src="../IMGS/flavouredcakes/buutercake3.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Heart Shape Butterscotch Cake</h5>
-          <p class="card-text"> Send this  heart shaped butterscotch cake to the most loved person of your life and hold a very special place in her life.  </p>
+          <p class="card-text"> Send this heart shaped butterscotch cake to the most loved person of your life and hold
+            a very special place in her life. </p>
           <p class="fw-bold">₹ 689
             <s class="fw-light">₹ 739</s>
-            (10% OFF)</p>
-            <p> 5 ⭐ (305 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (305 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
     </div>
     <div class="container d-flex mt-5">
-        <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-            <img src="../IMGS/flavouredcakes/buttercake4.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Butterscotch Cake With Cherry </h5>
-              <p class="card-text">Stir yourself with the divine flavors of butterscotch and chocolate both at the same time.</p>
-              <p class="fw-bold">₹ 949
-                <s class="fw-light">₹ 999</s>
-                (10% OFF)</p>
-                <p> 4.9 ⭐ (229 Reviews)</p>
-                <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-              <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-            </div>
+      <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/buttercake4.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Butterscotch Cake With Cherry </h5>
+          <p class="card-text">Stir yourself with the divine flavors of butterscotch and chocolate both at the same
+            time.</p>
+          <p class="fw-bold">₹ 949
+            <s class="fw-light">₹ 999</s>
+            (10% OFF)
+          </p>
+          <p> 4.9 ⭐ (229 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
+      </div>
 
-            <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-                <img src="../IMGS/flavouredcakes/buttercake5.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Butterscotch Cake With  Swirls</h5>
-                  <p class="card-text"> The recipe of love always includes ingredients like  butterscotch nougat, swirls, with cherry and  love infused. </p>
-                  <p class="fw-bold">₹ 1025
-                    <s class="fw-light">₹ 1075</s>
-                    (10% OFF)</p>
-                    <p> 5 ⭐ (306 Reviews)</p>
-                    <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-                  <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-                </div>
-            </div>
-    
-                <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-                    <img src="../IMGS/flavouredcakes/buttercake6.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Butterscotch Heart Shaped Cake</h5>
-                      <p class="card-text"> This is a perfect example of tone cake- one side of Vanilla with chocolate syrup and another is of Butterscotch covering.</p>
-                      <p class="fw-bold">₹ 1299
-                        <s>₹ 1349</s>
-                        (10% OFF)</p>
-                        <p> 5 ⭐ (308 Reviews)</p>
-                        <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-                      <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-                    </div>
-                </div>
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/buttercake5.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Butterscotch Cake With Swirls</h5>
+          <p class="card-text"> The recipe of love always includes ingredients like butterscotch nougat, swirls, with
+            cherry and love infused. </p>
+          <p class="fw-bold">₹ 1025
+            <s class="fw-light">₹ 1075</s>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (306 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/buttercake6.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Butterscotch Heart Shaped Cake</h5>
+          <p class="card-text"> This is a perfect example of tone cake- one side of Vanilla with chocolate syrup and
+            another is of Butterscotch covering.</p>
+          <p class="fw-bold">₹ 1299
+            <s>₹ 1349</s>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (308 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+        </div>
+      </div>
     </div>
 
-
+<div id="fruit-cake">
     <h1 class="fw-bold text-center mt-4">Fruit Cakes</h1>
     <div class="container d-flex mt-5">
-    
-    <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded " style="width: 50rem;">
+
+      <div class="card  ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded " style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/fruitcake1.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Fruits N Roasted Almond Cake</h5>
-          <p class="card-text">Freshly baked Vanilla cake, Whipped cream and tropical fruits come together to create a treat that is tastier than it looks. </p>
+          <p class="card-text">Freshly baked Vanilla cake, Whipped cream and tropical fruits come together to create a
+            treat that is tastier than it looks. </p>
           <p class="fw-bold">₹ 699
             <s class="fw-light">₹ 749</s>
-            (10% OFF)</p>
-            <p> 4.9 ⭐ (360 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 4.9 ⭐ (360 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
@@ -570,13 +764,16 @@
         <img src="../IMGS/flavouredcakes/fruitcake2.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Chocolate Truffle Fruit Cake
-        </h5>
-          <p class="card-text">Dive into a symphony of sweetness with this Chocolate Truffle Fruit  Cake and enjoy its delicious sweetness! </p>
+          </h5>
+          <p class="card-text">Dive into a symphony of sweetness with this Chocolate Truffle Fruit Cake and enjoy its
+            delicious sweetness! </p>
           <p class="fw-bold">₹ 549
             <s class="fw-light">₹ 599</s>
-            (10% OFF)</p>
-            <p> 4.7 ⭐ (220 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 4.7 ⭐ (220 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
@@ -585,74 +782,88 @@
         <img src="../IMGS/flavouredcakes/fruitcake3.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Fruit Funfetti Vanilla Cake</h5>
-          <p class="card-text"> If you love fruit so much then give this delicious flavorful fruit cake a try. We are sure you won't regret the taste.  </p>
+          <p class="card-text"> If you love fruit so much then give this delicious flavorful fruit cake a try. We are
+            sure you won't regret the taste. </p>
           <p class="fw-bold">₹ 689
             <s class="fw-light">₹ 739</s>
-            (10% OFF)</p>
-            <p> 5 ⭐ (305 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (305 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
     </div>
     <div class="container d-flex mt-5">
-        <div class="card ms-5  me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-            <img src="../IMGS/flavouredcakes/fruitcake4.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Red Velvet Fruit Layer Cake</h5>
-              <p class="card-text">An exceptionally Open-layered Red Velvet cake that tastes like a MASH UP between the tropical fruits is truly a luxurious treat. </p>
-              <p class="fw-bold">₹ 949
-                <s class="fw-light">₹ 999</s>
-                (10% OFF)</p>
-                <p> 4.9 ⭐ (229 Reviews)</p>
-                <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-              <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-            </div>
+      <div class="card ms-5  me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/fruitcake4.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Red Velvet Fruit Layer Cake</h5>
+          <p class="card-text">An exceptionally Open-layered Red Velvet cake that tastes like a MASH UP between the
+            tropical fruits is truly a luxurious treat. </p>
+          <p class="fw-bold">₹ 949
+            <s class="fw-light">₹ 999</s>
+            (10% OFF)
+          </p>
+          <p> 4.9 ⭐ (229 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
+      </div>
 
-            <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-                <img src="../IMGS/flavouredcakes/fruitcake5.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Heart Shape Fruit Nut Cake</h5>
-                  <p class="card-text"> This lusciously rich heart-shaped fruitcake is sure to be the center of attraction of your every special occasion. </p>
-                  <p class="fw-bold">₹ 1025
-                    <s class="fw-light">₹ 1075</s>
-                    (10% OFF)</p>
-                    <p> 5 ⭐ (306 Reviews)</p>
-                    <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-                  <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-                </div>
-            </div>
-    
-                <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-                    <img src="../IMGS/flavouredcakes/fruitcake6.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Fresh Kiwi Fruits Round Cake</h5>
-                      <p class="card-text">Coming up with one of the finest tastes, this is going to make your taste buds climb up to an unforgettable experience. </p>
-                      <p class="fw-bold">₹ 1299
-                        <s class="fw-light">₹ 1349</s>
-                        (10% OFF)</p>
-                        <p> 5 ⭐ (308 Reviews)</p>
-                        <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-                      <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-                    </div>
-                </div>
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/fruitcake5.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Heart Shape Fruit Nut Cake</h5>
+          <p class="card-text"> This lusciously rich heart-shaped fruitcake is sure to be the center of attraction of
+            your every special occasion. </p>
+          <p class="fw-bold">₹ 1025
+            <s class="fw-light">₹ 1075</s>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (306 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/fruitcake6.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fresh Kiwi Fruits Round Cake</h5>
+          <p class="card-text">Coming up with one of the finest tastes, this is going to make your taste buds climb up
+            to an unforgettable experience. </p>
+          <p class="fw-bold">₹ 1299
+            <s class="fw-light">₹ 1349</s>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (308 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+        </div>
+      </div>
     </div>
-
+</div>
 
     <h1 class="fw-bold text-center mt-4">Black Forest Cakes</h1>
     <div class="container d-flex mt-5">
-    
-    <div class=" ms-5 card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+
+      <div class=" ms-5 card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
         <img src="../IMGS/flavouredcakes/blackcake1.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Black Forest Cherry Cake</h5>
           <p class="card-text">Relish the rich taste of the Original German Chocolate Fantasy! </p>
           <p class="fw-bold">₹ 699
             <s class="fw-light">₹ 749</s>
-            (10% OFF)</p>
-            <p> 4.9 ⭐ (360 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 4.9 ⭐ (360 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
@@ -661,13 +872,15 @@
         <img src="../IMGS/flavouredcakes/blackcake2.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Black Forest Half Cake
-        </h5>
-          <p class="card-text">Dive into a symphony of sweetness with this Chocolaty Black Forest Half  Cake! </p>
+          </h5>
+          <p class="card-text">Dive into a symphony of sweetness with this Chocolaty Black Forest Half Cake! </p>
           <p class="fw-bold">₹ 549
             <s class="fw-light">₹ 599</s>
-            (10% OFF)</p>
-            <p> 4.7 ⭐ (220 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 4.7 ⭐ (220 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
@@ -676,59 +889,73 @@
         <img src="../IMGS/flavouredcakes/blackcake3.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Scrumptious Black Forest Cake</h5>
-          <p class="card-text"> For all your birthdays and anniversaries, here is the legendary black forest cake.   </p>
+          <p class="card-text"> For all your birthdays and anniversaries, here is the legendary black forest cake. </p>
           <p class="fw-bold">₹ 689
             <s class="fw-light">₹ 739</s>
-            (10% OFF)</p>
-            <p> 5 ⭐ (305 Reviews)</p>
-            <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (305 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
           <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
       </div>
     </div>
     <div class="container d-flex mt-5">
-        <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-            <img src="../IMGS/flavouredcakes/blackcake4.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Caramel Crunch Cream Cake</h5>
-              <p class="card-text"> The classic Black Forest has reached sweetness of  5-Stars on the top of cream. </p>
-              <p class="fw-bold">₹ 949
-                <s class="fw-light">₹ 999</s>
-                (10% OFF)</p>
-                <p> 4.9 ⭐ (229 Reviews)</p>
-                <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-              <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-            </div>
+      <div class="card ms-5 me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/blackcake4.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Caramel Crunch Cream Cake</h5>
+          <p class="card-text"> The classic Black Forest has reached sweetness of 5-Stars on the top of cream. </p>
+          <p class="fw-bold">₹ 949
+            <s class="fw-light">₹ 999</s>
+            (10% OFF)
+          </p>
+          <p> 4.9 ⭐ (229 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
         </div>
+      </div>
 
-            <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-                <img src="../IMGS/flavouredcakes/blackcake5.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Square Choco Black Forest Cake</h5>
-                  <p class="card-text"> The square-shaped black forest cake filled with love  is a delicious option to serve.  </p>
-                  <p class="fw-bold">₹ 1025
-                    <s class="fw-light">₹ 1075</s>
-                    (10% OFF)</p>
-                    <p> 5 ⭐ (306 Reviews)</p>
-                    <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-                  <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-                </div>
-            </div>
-    
-                <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
-                    <img src="../IMGS/flavouredcakes/blackcake6.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Black Forest Cherry Cake</h5>
-                      <p class="card-text"> Be thoughtful this Valentine's and shop to send black forest heart cake.</p>
-                      <p class="fw-bold">₹ 1299
-                        <s class="fw-light">₹ 1349</s>
-                        (10% OFF)</p>
-                        <p> 5 ⭐ (308 Reviews)</p>
-                        <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to Cart</a>
-                      <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
-                    </div>
-                </div>
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/blackcake5.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Square Choco Black Forest Cake</h5>
+          <p class="card-text"> The square-shaped black forest cake filled with love is a delicious option to serve.
+          </p>
+          <p class="fw-bold">₹ 1025
+            <s class="fw-light">₹ 1075</s>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (306 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card me-5 p-3 mb-5 hover-img shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 50rem;">
+        <img src="../IMGS/flavouredcakes/blackcake6.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Black Forest Cherry Cake</h5>
+          <p class="card-text"> Be thoughtful this Valentine's and shop to send black forest heart cake.</p>
+          <p class="fw-bold">₹ 1299
+            <s class="fw-light">₹ 1349</s>
+            (10% OFF)
+          </p>
+          <p> 5 ⭐ (308 Reviews)</p>
+          <a href="./AddtoCart.html" class="btn btn-color text-light d-inline-flex justify-content-evenly">Add to
+            Cart</a>
+          <a href="#" class="btn btn-color text-light ms-3">Buy Now</a>
+        </div>
+      </div>
     </div>
+  </div>
+
+  <div>
+
+  </div>
 
 
     <footer>
@@ -881,7 +1108,15 @@
 
 
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-      ></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>
