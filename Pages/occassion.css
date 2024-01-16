@@ -5,8 +5,25 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 0;
+    background-color:  #fde0f7;
 }
-
+.bg{
+    background-color: #3E3232;
+}
+  
+  .font-color{
+      color: white;
+  }
+  .font-color:hover
+  {
+    color: white;
+  }
+.nav-link{
+    color: #f0e6e6;
+    text-align: center;
+    font-size: 20px;
+    justify-content: space-around;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -35,7 +52,7 @@ header {
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
-    color: #00004d;
+    color:#00004d  ;
     cursor: pointer;
     display: flex;
     justify-content: space-evenly;
@@ -64,7 +81,7 @@ header {
     width: 30%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-right: 5px;
-    border: dashed;
+    box-shadow: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
 }

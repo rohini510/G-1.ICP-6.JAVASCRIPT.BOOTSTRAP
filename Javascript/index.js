@@ -83,6 +83,16 @@ function CoverImg82(){
 }
 
 
+
+
+
+   
+
+
+
+
+
+
 function changecake11(imageName) {
     const mainImage = document.getElementById('cake-img1');
     mainImage.src = imageName

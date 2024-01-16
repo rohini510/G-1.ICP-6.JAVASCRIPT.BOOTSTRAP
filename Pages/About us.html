@@ -21,9 +21,62 @@
             transition: 0.3s;
         transform: scale(1.1);
         }
+        .bg{
+          background-color: #7E6363;
+        }
+        
+        .font-color{
+            color: white;
+        }
+        .font-color:hover
+        {
+          color: white;
+        }
     </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg">
+        <div class="container-fluid">
+          <img src="../IMGS/homepage img/logo.png" class="rounded-circle" style="width: 5%">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  font-color  ms-4" href="Index.html">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle font-color ms-3 " href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cakes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./Pages/Flavouredcakes.html">Flavours</a></li>
+                  <li><a class="dropdown-item" href="./Pages/Occassions.html">Occassions</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  font-color ms-4  " href="./Pages/Cupcakes.html">Cupcakes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  font-color ms-4 " href="./Pages/Allcakes.html">Allcakes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  font-color ms-4" href="./Pages/About us.html">About us</a>
+              </li>
+            </ul>
+            <form class="d-flex me-5 " role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary font-color" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      <a href="./Pages/AddtoCart.html">  <img src="../IMGS/homepage img/shopping-cart.png" class="me-3 "  style="width: 35%"></a>
+       <a href="./Pages/login.html"> <img src="../IMGS/homepage img/login.png" class="me-5"  style="width: 25%"></a>
+          </nav>
+
+
   <div  style="max-width: 990px; margin: auto; padding: auto;">
     <div class="row g-0 column-gap-0.002" id="mobilecoverimg2"  onmousemove="CoverImg31()" onmouseout="CoverImg32()" >
   <div class="col-md-4">
